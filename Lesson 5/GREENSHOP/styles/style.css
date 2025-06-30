@@ -18,6 +18,7 @@ h2{
     display: flex;
     margin-left: 172px;
     gap: 12px;
+    margin-top: 52px;
 }
 
 .login{
@@ -32,7 +33,6 @@ h2{
     font-size: 18px;
     font-weight: 250;
     line-height: 16px;
-    margin-top: 22px;
 }
 
 .register{
@@ -48,6 +48,7 @@ h2{
     font-weight: 400;
     line-height: 16px;
     margin-left: 100px;
+    margin-top: 40px;
 }
 
 form{
