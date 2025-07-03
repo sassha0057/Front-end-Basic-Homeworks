@@ -5,29 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/reset.css">
-    <title>Home Page</title>
+    <title>Home page</title>
 </head>
 <body>
-    <header>
-        <img src="./img/logo.svg" alt="logo">
-        <ul>
-            <li>Home</li>
-            <li>Shop</li>
-            <li>Plant Care</li>
-            <li>Blogs</li>
-        </ul>
-        <button>
-            <img src="./img/logout.svg" alt="logout">
-            Login
-        </button>
-    </header>
-    <section>
-        <span>Welcome to GreenShop</span>
-        <h1>Let’s Make a Better Planet</h1>
-        <p>We are an online plant shop offering a wide range of cheap and trendy plants. Use our plants to create an unique Urban Jungle. Order your favorite plants!</p>
-        <img src="./img/big.png" alt="big plant">
-        <img src="./img/little.png" alt="little plant">
-        <button>SHOP NOW</button>
+    <div class="container">
+        <header>
+            <img src="./img/logo.svg" alt="logo">
+            <ul class="list">
+                <li class="list-item active">Home</li>
+                <li class="list-item">Shop</li>
+                <li class="list-item">Plant Care</li>
+                <li class="list-item">Blogs</li>
+            </ul>
+            <button class="login-btn">
+                <img src="./img/logout.svg" alt="logout">
+                Login
+            </button>
+        </header>
+    </div>
+    <section class="container_">
+        <div class="main-info">
+            <div>
+                <span class="title">Welcome to GreenShop</span>
+                <h1>Let’s Make a Better <span class="planet">Planet</span></h1>
+                <p class="description">We are an online plant shop offering a wide range of cheap and trendy plants. Use our plants to create an unique Urban Jungle. Order your favorite plants!</p>
+                <button class="shop-btn">SHOP NOW</button>
+            </div>
+            <div class="img-container">
+                <img src="./img/big.png" alt="big plant" class="big">
+                <img src="./img/little.png" alt="little plant" class="little">
+            </div>
+        </div>
     </section> 
 </body>
 </html>

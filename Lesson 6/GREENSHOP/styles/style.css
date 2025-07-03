@@ -1,0 +1,111 @@
+.container{
+    padding: 30px 120px 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    border-bottom: 1px solid rgba(70, 163, 88, 0.50);
+    margin-bottom: 12px;
+}
+
+.list{
+    display: flex;
+    gap: 50px;
+}
+
+.list-item{
+    color: #3D3D3D;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 8px 0 25px;
+}
+
+.active{
+    font-weight: 700;
+    border-bottom: 3px solid #46A358;
+}
+
+.login-btn{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 6px;
+    background: #46A358;
+    padding: 8px 17px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.container_{
+    padding: 0 120px 52px;
+}
+
+.main-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 68px;
+    padding-left: 40px;
+    background-color: #F5F5F580;
+}
+
+.title{
+    color: #3D3D3D;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+
+h1{
+    color: #3D3D3D;
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 70px;
+    text-transform: uppercase;
+    width: 58%;
+    margin-top: 7px;
+}
+
+.planet{
+    color: #46A358;
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 70px;
+    text-transform: uppercase; 
+}
+
+.description{
+    color: #727272;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 46%;
+    margin-top: 5px;
+}
+
+.shop-btn{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    background: #46A358;
+    padding: 10px 26px;
+    margin-top: 55px;
+    margin-bottom: 85px;
+}
+
+.img-container {
+    position: relative;
+}
+
+.little{
+    position: absolute;
+    top: 300px;
+    left: 54px;
+}
