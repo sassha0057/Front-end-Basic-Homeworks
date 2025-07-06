@@ -3,8 +3,7 @@
   }
 
 .container{
-    padding: 30px 120px 0;
-    margin-bottom: 12px;
+    padding: 30px 120px 52px;
 }
 
 header{
@@ -12,6 +11,7 @@ header{
     justify-content: space-between;
     align-items: start;
     border-bottom: 1px solid rgba(70, 163, 88, 0.50);
+    margin-bottom: 12px;
 }
 
 .list{
@@ -43,10 +43,6 @@ header{
     gap: 4px;
 }
 
-.container_{
-    padding: 0 120px 52px;
-}
-
 .main-info{
     display: flex;
     align-items: center;
@@ -70,7 +66,7 @@ h1{
     font-weight: 900;
     line-height: 70px;
     text-transform: uppercase;
-    width: 58%;
+    width: 72%;
     margin-top: 7px;
 }
 
@@ -87,7 +83,7 @@ h1{
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
-    width: 43%;
+    width: 54%;
     margin-top: 5px;
 }
 
