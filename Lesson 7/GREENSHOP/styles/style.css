@@ -43,13 +43,16 @@ header{
     gap: 4px;
 }
 
+section{
+    display: flex;
+    background-color: #F5F5F580;
+}
+
 .main-info{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 68px;
-    padding-left: 40px;
-    background-color: #F5F5F580;
+    align-items: start;
+    flex-direction: column;
+    padding: 68px 40px;
 }
 
 .title{
@@ -97,7 +100,6 @@ h1{
     background: #46A358;
     padding: 10px 26px;
     margin-top: 55px;
-    margin-bottom: 85px;
 }
 
 .img-container {
