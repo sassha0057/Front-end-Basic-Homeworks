@@ -46,7 +46,7 @@ section{
 }
 
 .content{
-    margin-left: 50px;
+    max-width: 840px;
 } 
 
 .navigation{
@@ -94,18 +94,19 @@ section{
 .products{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 33px 70px;
+    justify-content: space-between;
+    gap: 70px 33px;
 }
 
 .product-item{
-    background-color: #FBFBFB;
     display: flex;
     flex-direction: column;
 }
 
 .product-img{
-    margin-bottom: 12px;
+    background-color: #FBFBFB;
+    width: 250px;
+    height: 250px;
 }
 
 .product-name{
