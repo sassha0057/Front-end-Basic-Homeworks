@@ -206,7 +206,7 @@ section.category{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 70px 33px;
+    gap: 70px 98px;
     padding-top: 38px;
 }
 
@@ -275,7 +275,7 @@ section.category{
     display: flex;
     justify-content: flex-end;
     gap: 10px;
-
+    margin-top: 90px;
 }
 
 .page-count{
@@ -308,4 +308,3 @@ section.category{
     background-color: #46A358;
     padding: 10px 13px 9px 14px;
 }
-
