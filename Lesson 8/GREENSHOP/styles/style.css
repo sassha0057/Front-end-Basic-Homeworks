@@ -331,6 +331,9 @@ section.about-posts{
 }
 
 .card-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
     padding: 37px 30px 46px 0;
 }
 
@@ -359,6 +362,7 @@ section.about-posts{
     margin-top: 9px;
     margin-bottom: 25px;
     width: 57%;
+    text-align: right;
 }
 
 .card-button{
@@ -395,3 +399,63 @@ section.about-posts{
     margin-top: 15px;
     margin-bottom: 35px;
 }
+
+.posts-container{
+    display: flex;          
+    justify-content: space-between;
+}
+
+.posts-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #FBFBFB;
+    max-width: 268px;
+    min-width: 268px;
+}
+
+.posts-time{
+    color: #46A358;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    padding: 9px 0 0 13px;
+}
+
+.posts-title{
+    color: #3D3D3D;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    padding-left: 13px;
+    width: 81%;
+}
+
+.posts-description{
+    color: #727272;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    padding-left: 13px;
+    width: 88%;
+}
+
+.posts-button{
+    display: flex;
+    align-items: center;
+    color: #3D3D3D;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px; 
+    padding: 9px 0 13px 13px;   
+}
+
+.posts-button.active{
+    display: flex;
+    align-items: center;
+    color: #46A358;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+}
+
