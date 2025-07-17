@@ -350,7 +350,7 @@ section.about-posts{
     line-height: 24px;
     text-transform: uppercase;
     width: 30%;
-    text-align: center;
+    text-align: right;
 }
 
 .card-description{
@@ -401,10 +401,14 @@ section.about-posts{
 
 .posts-container{
     display: flex;          
-    gap: 44px;
+    justify-content: space-between;
 }
 
 .posts-card{
+    display: flex;
+    flex-direction: column;
+    max-width: 268px;
+    min-width: 268px;
     background-color: #FBFBFB;
 }
 
@@ -432,7 +436,7 @@ section.about-posts{
     font-size: 20px;
     font-weight: 700;
     line-height: 26px;
-    width: 63%;
+    width: 84%;
 }
 
 .posts-title.blog1{
@@ -440,7 +444,7 @@ section.about-posts{
     font-size: 20px;
     font-weight: 700;
     line-height: 26px;
-    width: 60%;
+    width: 76%;
 }
 
 .posts-title.blog3{
@@ -448,7 +452,7 @@ section.about-posts{
     font-size: 20px;
     font-weight: 700;
     line-height: 26px;
-    width: 56%;
+    width: 70%;
 }
 
 .posts-description{
@@ -456,7 +460,7 @@ section.about-posts{
     font-size: 14px;
     font-weight: 400;
     line-height: 22px;
-    width: 67%;
+    width: 92%;
 }
 
 .posts-button{
