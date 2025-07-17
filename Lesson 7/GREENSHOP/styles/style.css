@@ -123,10 +123,6 @@ section.category{
 }
 
 .categories{
-    max-width: 310px;
-    max-height: 774px;
-    min-width: 310px;
-    min-height: 774px;
     background-color: #FBFBFB;
     padding: 14px 0 0 18px;
 }
@@ -139,7 +135,7 @@ section.category{
 }
 
 .category-list{
-    padding: 7px 0 0 12px;
+    padding: 7px 0 377px 12px;
 }
 
 .category-item{
@@ -157,7 +153,11 @@ section.category{
 }
 
 .super-sale-banner{
-    margin-left: -29px;
+    background-color: #FBFBFB
+}
+
+.content{
+    margin-left: 54px;
 }
 
 .navigation{
@@ -206,7 +206,7 @@ section.category{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 70px 98px;
+    gap: 70px;
     padding-top: 38px;
 }
 
