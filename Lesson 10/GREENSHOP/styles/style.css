@@ -20,19 +20,86 @@ header{
 }
 
 .list-item{
+    position: relative;
     color: #3D3D3D;
     font-size: 16px;
     font-weight: 400;
     padding: 8px 0 25px;
 }
 
-.list-item.active{
+.list-item:hover{
     color: #3D3D3D;
     font-size: 16px;
     font-weight: 400;
-    padding: 8px 0 25px;
     font-weight: 700;
     border-bottom: 3px solid #46A358;
+}
+
+.dropdown-menu{
+    position: absolute;
+	display: none;
+    top: 105%;       
+    left: -60%; 
+    flex-direction: column;
+    background: #EDF6EE;
+}
+
+.dropdown-menu-item{
+    color: #3D3D3D;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 7px 0 8px 14px;
+}
+
+.dropdown-menu-item.next{
+    display: flex;
+    align-items: baseline;
+    gap: 88px;
+    position: relative;  
+}
+
+.drop-list-arrow{
+    margin-right: 17px;
+}
+
+.list-item:hover .dropdown-menu{
+    display: flex;
+}
+
+.dropdown-menu-second{
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    top: -300%;       
+    left: 100%;
+    max-width: 100%;
+    min-width: 100%; 
+    background: #EDF6EE;
+    z-index: 1;
+    margin-left: 2px;
+}
+
+.dropdown-menu-item-second{
+    color: #3D3D3D;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 7px 0 8px 14px;
+}
+
+.dropdown-menu-item.next:hover .dropdown-menu-second{
+    display: flex;
+}
+
+.dropdown-menu-item.next:hover{
+    background: #1A712A;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.dropdown-menu-item.next:hover .drop-list-arrow {
+    transform: rotate(180deg);
+    filter: brightness(0) invert(1);
 }
 
 .login-btn{
