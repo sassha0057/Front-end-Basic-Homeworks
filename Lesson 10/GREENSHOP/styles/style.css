@@ -25,12 +25,12 @@ header{
     font-size: 16px;
     font-weight: 400;
     padding: 8px 0 25px;
+    border-bottom: 3px solid transparent;
 }
 
-.list-item.active{
+.list-item:hover{
     color: #3D3D3D;
     font-size: 16px;
-    font-weight: 400;
     font-weight: 700;
     border-bottom: 3px solid #46A358;
 }
@@ -41,11 +41,13 @@ header{
     top: 105%;       
     left: -60%; 
     flex-direction: column;
-    background: #EDF6EE;
+    padding-top: 12px;
+    
 }
 
 .dropdown-menu-item{
     color: #3D3D3D;
+    background: #EDF6EE;
     font-size: 16px;
     font-weight: 400;
     padding: 7px 0 8px 14px;
@@ -72,18 +74,17 @@ header{
     flex-direction: column;
     top: -300%;       
     left: 100%;
-    max-width: 100%;
-    min-width: 100%; 
-    background: #EDF6EE;
     z-index: 1;
-    margin-left: 2px;
+    padding-left: 2px;
 }
 
 .dropdown-menu-item-second{
     color: #3D3D3D;
+    background: #EDF6EE;
     font-size: 16px;
     font-weight: 400;
     padding: 7px 0 8px 14px;
+    width: 200%;
 }
 
 .dropdown-menu-item.next:hover .dropdown-menu-second{
@@ -224,7 +225,7 @@ section.category{
 }
 
 .content{
-    margin-left: 54px;
+    margin-left: 50px;
 }
 
 .navigation{
@@ -530,8 +531,11 @@ section.about-posts{
     display: flex;
     flex-direction: column;
     max-width: 268px;
-    min-width: 268px;
     background-color: #FBFBFB;
+}
+
+.posts-img{
+    width: 268px;
 }
 
 .posts-text.blog1{
