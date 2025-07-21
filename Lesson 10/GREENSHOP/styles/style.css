@@ -27,7 +27,7 @@ header{
     padding: 8px 0 25px;
 }
 
-.list-item:hover{
+.list-item.active{
     color: #3D3D3D;
     font-size: 16px;
     font-weight: 400;
