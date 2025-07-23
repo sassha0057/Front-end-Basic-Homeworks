@@ -649,6 +649,7 @@ section.about-posts{
     font-weight: 700;
     line-height: 16px;
     margin-top: 15px;
+    margin-bottom: 9px;
 }
 
 .about-us-description{
@@ -657,7 +658,136 @@ section.about-posts{
     font-weight: 400;
     line-height: 22px;
     width: 90%;
-    margin-top: 9px;
 }
 
+.newsletter-title{
+    color: #3D3D3D;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+}
 
+.newsletter-description{
+    color: #727272;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+form{
+    display: flex;
+    align-items: baseline;
+}
+
+input{
+    border-radius: 6px 0px 0px 6px;
+    background: #FFF;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.06);
+    padding: 14px 86px 11px 11px;
+    margin-top: 25px;
+    margin-bottom: 18px;
+}
+
+input[type="email"]{
+    color: #ACACAC;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.join-button{
+    background-color: #46A358;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+    padding: 12px 25px 12px 26px;
+    border-radius: 0px 6px 6px 0px;
+}
+
+.adress{
+    display: flex;
+    padding: 27px 23px;
+    justify-content: center;
+    background: -webkit-linear-gradient(40deg, #EDF6EF 0%, #52C368 100%);
+    background: -moz-linear-gradient(40deg, #EDF6EF 0%, #52C368 100%);
+    background: linear-gradient(40deg, #EDF6EF 0%, #52C368 100%);
+}
+
+.adress-list{
+    display: flex;
+    gap: 155px;
+    margin-left: 155px;
+    align-items: center;
+}
+
+.adress-list-item{
+    display: flex;
+    gap: 9px;
+    align-items: center;
+}
+
+.adress-list-item-img{
+    padding-top: 8px;
+}
+
+.adress-list-item-description{
+    color: #3D3D3D;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.adress-list-item-description.first{
+    color: #3D3D3D;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    width: 74%;
+}
+
+.footer-info{
+    display: flex;
+    justify-content: space-between;
+    background: #FBFBFB;
+    padding: 33px 155px 27px 25px;
+    border-bottom: 1px solid rgba(70, 163, 88, 0.20);
+}
+
+.footer-list-item{
+    color: #3D3D3D;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.footer-list-item.first{
+    color: #3D3D3D;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.social-media{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 33px;
+    gap: 10px;
+}
+
+.bank-cards{
+    margin-top: 13px;
+}
+
+.rights{
+    display: flex;
+    justify-content: center;
+    margin-top: 7px;
+}
+
+.rights-text{
+    color: #3D3D3D;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+}
