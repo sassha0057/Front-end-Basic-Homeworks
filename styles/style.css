@@ -16,6 +16,11 @@
 .exit_icon{
     margin: 13px 469px;
     margin-bottom: -20px;
+    transition: 0.85s;
+}
+
+.exit_icon:hover{
+    filter: invert(19%) sepia(6%) saturate(16%) hue-rotate(321deg) brightness(106%) contrast(89%);
 }
 
 h2{
@@ -93,13 +98,20 @@ h2{
 .registration_button{
     border-radius: 5px;
     background: #46A358;
-    border: none;
+    border: 1px solid transparent;
     color: #FFF;
     font-size: 16px;
     font-weight: 700;
     line-height: 16px;
     padding: 15px 115px;
     margin-top: 40px;
+    transition: 0.85s;
+}
+
+.registration_button:hover{
+    background-color: #FFF;
+    color: #46A358;
+    border: 1px solid #46A358;
 }
 
 .register_container{
@@ -190,6 +202,7 @@ header{
     font-weight: 400;
     padding: 8px 0 25px;
     border-bottom: 3px solid transparent;
+    transition: 0.2s;
 }
 
 .list-item:hover{
@@ -276,6 +289,22 @@ header{
     display: flex;
     align-items: center;
     gap: 4px;
+    border: 1px solid transparent;
+    transition: 0.85s;
+}
+
+.logout{
+    transition: 0.85s;
+}
+
+.login-btn:hover{
+    color: #46A358;
+    background-color: #FFF;
+    border: 1px solid #46A358;
+}
+
+.login-btn:hover .logout{
+    filter: invert(53%) sepia(36%) saturate(632%) hue-rotate(80deg) brightness(95%) contrast(93%);
 }
 
 section.info{
@@ -335,6 +364,14 @@ h1{
     background: #46A358;
     padding: 10px 26px;
     margin-top: 55px;
+    border: 1px solid transparent;
+    transition: 0.85s;
+}
+
+.shop-btn:hover{
+    background-color: #F5F5F580;
+    color: #46A358;
+    border: 1px solid #46A358;
 }
 
 .img-container {
@@ -661,6 +698,22 @@ section.about-posts{
     align-items: center;
     padding: 11px 27px 9px 28px;
     gap: 2px;
+    border: 1px solid transparent;
+    transition: 0.85s;
+}
+
+.card-button-img{
+    transition: 0.85s;
+}
+
+.card-button:hover{
+    color: #46A358;
+    background-color: #F5F5F580;
+    border: 1px solid #46A358;
+}
+
+.card-button:hover .card-button-img{
+    filter: invert(53%) sepia(36%) saturate(632%) hue-rotate(80deg) brightness(95%) contrast(93%);
 }
 
 .blog{
@@ -759,16 +812,25 @@ section.about-posts{
     font-size: 14px;
     font-weight: 500;
     line-height: 16px;
-    margin-top: 9px; 
+    margin-top: 9px;
+    transition: 0.45s; 
 }
 
-.posts-button.active{
+.posts-button-img{
+    transition: 0.45s;
+}
+
+.posts-button:hover{
     display: flex;
     align-items: center;
     color: #46A358;
     font-size: 14px;
     font-weight: 500;
     line-height: 16px;
+}
+
+.posts-button:hover .posts-button-img{
+    filter: invert(53%) sepia(36%) saturate(632%) hue-rotate(80deg) brightness(95%) contrast(93%);
 }
 
 .find-us{
@@ -866,6 +928,14 @@ input[type="email"]{
     line-height: 16px;
     padding: 12px 25px 12px 26px;
     border-radius: 0px 6px 6px 0px;
+    border: 1px solid transparent;
+    transition: 0.85s;
+}
+
+.join-button:hover{
+    background-color: #FBFBFB;
+    color: #46A358;
+    border: 1px solid #46A358;
 }
 
 .adress{
