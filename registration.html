@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/registration.css">
+    <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./fonts/CeraPro/cerapro.css">
     <title>Registration</title>
@@ -17,15 +17,15 @@
             <p class="register">Register</p>
         </h2>
         <p class="register_text">Enter your email and password to register.</p>
-        <form>
-            <input type="text" name="username" placeholder="Username">
-            <input type="email" name="email" placeholder="Enter your email address" required>
+        <form class="registration_form">
+            <input class="registration_input" type="text" name="username" placeholder="Username">
+            <input class="registration_input" type="email" name="email" placeholder="Enter your email address" required>
             <div class="password">
-                <input type="password" name="password" placeholder="Password">
+                <input class="registration_input" type="password" name="password" placeholder="Password">
                 <img class="eye" src="./img/eye-hide.svg" alt="eye-hide">
             </div>
-            <input type="password" name="password" placeholder="Confirm Password">
-            <button type="submit">Register</button>
+            <input class="registration_input" type="password" name="password" placeholder="Confirm Password">
+            <button class="registration_button" type="submit">Register</button>
         </form>
         <div class="register_container">
             <div class="line"></div>
