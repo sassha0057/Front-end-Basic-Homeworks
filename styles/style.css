@@ -2,8 +2,12 @@
     font-family: 'CeraPro', sans-serif;
 }
 
-.login_container{
+.register_body{
     background-color: #F5F5F580;
+}
+
+.login_container{
+    background-color: #fff;
     width: 500px;
     margin: auto;
     margin-top: 110px;
