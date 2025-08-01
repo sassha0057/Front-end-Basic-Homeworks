@@ -403,21 +403,31 @@ section.category{
 }
 
 .category-list{
-    padding: 7px 0 377px 12px;
+    padding: 7px 24px 377px 12px;
 }
 
-.category-item{
+.custom-checkbox{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.category-item-text{
     color: #3D3D3D;
     font-size: 15px;
     font-weight: 400;
     line-height: 40px;
 }
 
-.category-item.active{
+.custom-checkbox input:checked ~ .category-item-text{
     color: #46A358;
     font-size: 15px;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 40px
+}
+
+.custom-checkbox input {
+    display: none;
 }
 
 .super-sale-banner{
