@@ -6,6 +6,45 @@
     background-color: #F5F5F580;
 }
 
+.all-content{
+    transition: filter 0.5s ease;
+}
+
+.all-content.blur {
+    filter: blur(5px);
+    pointer-events: none;
+}
+
+@keyframes rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.preloader {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 6px solid;
+    border-top-color: #3CA14D;
+    border-right-color: #3CA14D;
+    border-bottom-color: #A0F0B1;
+    border-left-color: #A0F0B1;
+    animation: rotate 1s linear infinite;
+    z-index: 9999;
+}
+
+.preloader.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
 .login_container{
     background-color: #fff;
     width: 500px;

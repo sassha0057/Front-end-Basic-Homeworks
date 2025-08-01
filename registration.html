@@ -6,45 +6,49 @@
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./fonts/CeraPro/cerapro.css">
+    <script src="./JavaScript/preloader.js" defer></script>
     <title>Registration</title>
 </head>
 <body class="register_body">
-    <div class="login_container">
-        <a href="index.html">
-            <img class="exit_icon" src="./img/exit.svg" alt="exit">
-        </a>
-        <h2>
-            <p class="login">Login</p>
-            <p class="I">I</p>
-            <p class="register">Register</p>
-        </h2>
-        <p class="register_text">Enter your email and password to register.</p>
-        <form class="registration_form">
-            <input class="registration_input" type="text" name="username" placeholder="Username">
-            <input class="registration_input" type="email" name="email" placeholder="Enter your email address" required>
-            <div class="password">
-                <input class="registration_input" type="password" name="password" placeholder="Password">
-                <img class="eye" src="./img/eye-hide.svg" alt="eye-hide">
+    <div class="preloader"></div>
+    <div class="all-content">
+        <div class="login_container">
+            <a href="index.html">
+                <img class="exit_icon" src="./img/exit.svg" alt="exit">
+            </a>
+            <h2>
+                <p class="login">Login</p>
+                <p class="I">I</p>
+                <p class="register">Register</p>
+            </h2>
+            <p class="register_text">Enter your email and password to register.</p>
+            <form class="registration_form">
+                <input class="registration_input" type="text" name="username" placeholder="Username">
+                <input class="registration_input" type="email" name="email" placeholder="Enter your email address" required>
+                <div class="password">
+                    <input class="registration_input" type="password" name="password" placeholder="Password">
+                    <img class="eye" src="./img/eye-hide.svg" alt="eye-hide">
+                </div>
+                <input class="registration_input" type="password" name="password" placeholder="Confirm Password">
+                <button class="registration_button" type="submit">Register</button>
+            </form>
+            <div class="register_container">
+                <div class="line"></div>
+                <p class="register_with">Or register with</p>
+                <div class="line"></div>
             </div>
-            <input class="registration_input" type="password" name="password" placeholder="Confirm Password">
-            <button class="registration_button" type="submit">Register</button>
-        </form>
-        <div class="register_container">
-            <div class="line"></div>
-            <p class="register_with">Or register with</p>
-            <div class="line"></div>
+            <div class="social_media_container">
+                <div class="social_media social_media_google">
+                    <span><img src="./img/google.svg" alt="google"></span>
+                    <span class="social_media_description">Continue with Google</span>
+                </div>
+                <div class="social_media social_media_facebook">
+                    <span><img src="./img/facebook.svg" alt="facebook"></span>
+                    <span class="social_media_description">Continue with Facebook</span>
+                </div>
+            </div>
+            <div class="line_"></div>
         </div>
-        <div class="social_media_container">
-            <div class="social_media social_media_google">
-                <span><img src="./img/google.svg" alt="google"></span>
-                <span class="social_media_description">Continue with Google</span>
-            </div>
-            <div class="social_media social_media_facebook">
-                <span><img src="./img/facebook.svg" alt="facebook"></span>
-                <span class="social_media_description">Continue with Facebook</span>
-            </div>
-        </div>
-        <div class="line_"></div>
     </div>
 </body>
 </html>
