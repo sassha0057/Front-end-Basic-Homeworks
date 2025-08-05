@@ -47,15 +47,22 @@
 
 .login_container{
     background-color: #fff;
-    width: 500px;
+    /* width: 500px; */
     margin: auto;
-    margin-top: 110px;
+    /* margin-top: 110px; */
+    padding-top: 20px;
+}
+
+.exit{
+    display: flex;
+    justify-content: flex-end;
 }
 
 .exit_icon{
-    margin: 13px 469px;
-    margin-bottom: -20px;
+    /* margin: 13px 469px; */
+    /* margin-bottom: -20px; */
     transition: 0.85s;
+    padding-right: 10px;
 }
 
 .exit_icon:hover{
@@ -64,7 +71,8 @@
 
 h2{
     display: flex;
-    margin-left: 172px;
+    /* margin-left: 172px; */
+    justify-content: center;
     gap: 12px;
     margin-top: 52px;
 }
@@ -95,8 +103,10 @@ h2{
     font-size: 13px;
     font-weight: 400;
     line-height: 16px;
-    margin-left: 100px;
+    /* margin-left: 100px; */
     margin-top: 40px;
+    display: flex;
+    justify-content: center;
 }
 
 .registration_form{
@@ -116,7 +126,8 @@ h2{
 }
 
 .registration_input[type="text"],
-.registration_input[type="password"]{
+.registration_input[type="password"],
+.registration_input[type="email"]{
     color: #A5A5A5;
     font-size: 14px;
     font-weight: 400;
@@ -157,7 +168,8 @@ h2{
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: 102px;
+    justify-content: center;
+    /* margin-left: 102px; */
     margin-top: 35px;
     gap: 7px;
 }
@@ -1075,3 +1087,107 @@ input[type="email"]{
     font-weight: 400;
     line-height: 30px;
 }
+
+@media screen and (min-width: 390px){
+    
+    .exit_icon{
+        width: 40px;
+    }
+
+    .login, .register, .I{
+        font-size: 30px;
+    }
+
+    .register_text{
+        font-size: 19px;
+    }
+
+    .registration_input[type="text"],
+    .registration_input[type="password"],
+    .registration_input[type="email"]{
+        font-size: 20px;
+    }
+
+    .eye{
+        margin-top: 30px;
+        margin-left: 320px;
+        width: 25px;
+    }
+
+    .registration_button{
+        font-size: 22px;
+    }
+
+    .register_with{
+        font-size: 19px;
+    }
+    
+    .line{
+        height: 3px;
+    }
+
+    .social_media_description{
+        font-size: 19px;
+    }
+
+    .google, .facebook{
+        width: 30px;
+    }
+}
+
+@media screen and (min-width: 414px){
+    
+    .login_container{
+        margin-top: 35px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    
+    .login_container{
+        margin-top: 75px;
+        width: 500px;
+    }
+}
+
+@media screen and (min-width: 820px){
+    
+    .login_container{
+        margin-top: 135px;
+        width: 500px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    
+    .login_container{
+        margin-top: 235px;
+        width: 500px;
+    }
+}
+
+@media screen and (min-width: 1025px){
+    
+    .login_container{
+        margin-top: 110px;
+        width: 500px;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    
+    .login_container{
+        margin-top: 0px;
+        width: 500px;
+    }
+}
+
+@media screen and (min-width: 1920px){
+    
+    .login_container{
+        margin-top: 50px;
+        width: 500px;
+    }
+}
+
+
