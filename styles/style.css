@@ -444,6 +444,7 @@ h1{
 section.category{
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
     margin-top: 46px;
 }
 
@@ -460,7 +461,7 @@ section.category{
 }
 
 .category-list{
-    padding: 7px 24px 377px 12px;
+    padding: 7px 24px 30px 12px;
 }
 
 .custom-checkbox{
@@ -491,19 +492,22 @@ section.category{
     background-color: #FBFBFB
 }
 
-.content{
+/* .content{
     margin-left: 50px;
-}
+} */
 
 .navigation{
     display: flex;
     align-items: baseline;
     justify-content: space-between;
+    flex-direction: column;
+    margin-top: 15px;
+    gap: 15px;
 }
 
 .navigation-list{
     display: flex;
-    gap: 38px;
+    gap: 20px;
 }
 
 .navigation-list-item{
@@ -540,8 +544,8 @@ section.category{
 .products{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 70px;
+    justify-content: center;
+    gap: 30px;
     padding-top: 24px;
 }
 
@@ -669,7 +673,7 @@ section.category{
     display: flex;
     justify-content: flex-end;
     gap: 10px;
-    margin-top: 90px;
+    margin-top: 30px;
 }
 
 .page-count{
@@ -704,16 +708,18 @@ section.category{
 }
 
 section.about-posts{
-    margin-top: 146px;
+    margin-top: 46px;
 }
 
 .card-container{
     display: flex;
+    flex-direction: column;
     gap: 28px;
 }
 
 .card{
     display: flex;
+    flex-direction: column;
     flex-grow: 1;
     background-color: #FBFBFB;
 }
@@ -721,17 +727,17 @@ section.about-posts{
 .card-text{
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    padding: 37px 0 46px 30px;
+    align-items: flex-start;
+    padding: 20px 10px;
 }
 
-.card-img{
+/* .card-img{
     margin-top: -45px;
 }
 
 .card-img.first{
     margin-top: -52px;
- }
+ } */
 
 .card-title{
     color: #3D3D3D;
@@ -739,8 +745,8 @@ section.about-posts{
     font-weight: 900;
     line-height: 24px;
     text-transform: uppercase;
-    width: 30%;
-    text-align: right;
+    /* width: 30%; */
+    /* text-align: right; */
 }
 
 .card-description{
@@ -750,8 +756,8 @@ section.about-posts{
     line-height: 24px;
     margin-top: 9px;
     margin-bottom: 25px;
-    width: 57%;
-    text-align: right;
+    /* width: 57%; */
+    /* text-align: right; */
 }
 
 .card-button{
@@ -784,7 +790,7 @@ section.about-posts{
 }
 
 .blog{
-    margin-top: 138px;
+    margin-top: 46px;
 }
 
 .blog-title{
@@ -807,7 +813,9 @@ section.about-posts{
 
 .posts-container{
     display: flex;          
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .posts-card{
@@ -845,7 +853,7 @@ section.about-posts{
     font-size: 20px;
     font-weight: 700;
     line-height: 26px;
-    width: 84%;
+    /* width: 84%; */
 }
 
 .posts-title.blog1{
@@ -853,7 +861,7 @@ section.about-posts{
     font-size: 20px;
     font-weight: 700;
     line-height: 26px;
-    width: 76%;
+    /* width: 76%; */
 }
 
 .posts-title.blog3{
@@ -861,7 +869,7 @@ section.about-posts{
     font-size: 20px;
     font-weight: 700;
     line-height: 26px;
-    width: 70%;
+    /* width: 70%; */
 }
 
 .posts-description{
@@ -869,7 +877,7 @@ section.about-posts{
     font-size: 14px;
     font-weight: 400;
     line-height: 22px;
-    width: 92%;
+    /* width: 92%; */
 }
 
 .posts-button{
@@ -901,18 +909,20 @@ section.about-posts{
 }
 
 .find-us{
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .about-us{
     display: flex;
-    padding: 24px 25px;
-    gap: 60px;
+    flex-direction: column;
+    padding: 15px;
+    gap: 40px;
     background-color: #FBFBFB;
 }
 
 .about-us-cards{
     display: flex;
+    flex-direction: column;
     align-items: baseline;
     gap: 30px;
 }
@@ -926,9 +936,9 @@ section.about-posts{
     display: flex;
     flex-direction: column;
     border: 1px solid rgba(70, 163, 88, 0.10);
-    border-top: none;
-    border-bottom: none;
-    padding: 0 30px;
+    border-right: none;
+    border-left: none;
+    padding: 15px 0;
 }
 
 .about-us-img{
@@ -949,7 +959,7 @@ section.about-posts{
     font-size: 14px;
     font-weight: 400;
     line-height: 22px;
-    width: 90%;
+    /* width: 90%; */
 }
 
 .newsletter-title{
@@ -964,15 +974,17 @@ section.about-posts{
     font-size: 13px;
     font-weight: 400;
     line-height: 22px;
+    padding-top: 15px;
 }
 
 form{
     display: flex;
-    align-items: baseline;
+    flex-direction: column;
+    align-items: center;
 }
 
 input{
-    border-radius: 6px 0px 0px 6px;
+    border-radius: 6px 6px 6px 6px;
     background: #FFF;
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.06);
     padding: 14px 86px 11px 11px;
@@ -994,7 +1006,7 @@ input[type="email"]{
     font-weight: 700;
     line-height: 16px;
     padding: 12px 25px 12px 26px;
-    border-radius: 0px 6px 6px 0px;
+    border-radius: 6px 6px 6px 6px;
     border: 1px solid transparent;
     transition: 0.85s;
 }
@@ -1007,24 +1019,27 @@ input[type="email"]{
 
 .adress{
     display: flex;
-    padding: 27px 23px;
+    padding: 15px;
     justify-content: center;
-    background: -webkit-linear-gradient(40deg, #EDF6EF 0%, #52C368 100%);
-    background: -moz-linear-gradient(40deg, #EDF6EF 0%, #52C368 100%);
-    background: linear-gradient(40deg, #EDF6EF 0%, #52C368 100%);
+    flex-direction: column;
+    background: -webkit-linear-gradient(180deg, #EDF6EF 0%, #52C368 100%);
+    background: -moz-linear-gradient(180deg, #EDF6EF 0%, #52C368 100%);
+    background: linear-gradient(180deg, #EDF6EF 0%, #52C368 100%);
 }
 
 .adress-list{
     display: flex;
-    gap: 155px;
-    margin-left: 155px;
+    gap: 15px;
+    /* margin-left: 155px; */
     align-items: center;
+    flex-direction: column;
 }
 
 .adress-list-item{
     display: flex;
     gap: 9px;
     align-items: center;
+    flex-direction: column;
 }
 
 .adress-list-item-img{
@@ -1043,16 +1058,29 @@ input[type="email"]{
     font-size: 14px;
     font-weight: 400;
     line-height: 22px;
-    width: 74%;
+    /* width: 74%; */
 }
 
 .footer-info{
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
     background: #FBFBFB;
-    padding: 33px 155px 27px 25px;
+    gap: 15px;
+    padding: 20px 0;
     border-bottom: 1px solid rgba(70, 163, 88, 0.20);
 }
+
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* .footer-list.second{
+    display: flex;
+    align-items: baseline;
+} */
 
 .footer-list-item{
     color: #3D3D3D;
@@ -1071,8 +1099,9 @@ input[type="email"]{
 
 .social-media{
     display: flex;
-    margin-top: 20px;
-    margin-bottom: 33px;
+    /* margin-top: 20px;
+    margin-bottom: 33px; */
+    margin: 15px 0;
     gap: 10px;
 }
 
@@ -1098,6 +1127,18 @@ input[type="email"]{
     .img-container{
         display: none;
     }
+
+    .super-sale-banner{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 375px){
+
+    .dropdown-menu-second{
+        width: 68%;
+    }
+    
 }
 
 @media screen and (min-width: 390px){
@@ -1145,12 +1186,27 @@ input[type="email"]{
     .google, .facebook{
         width: 30px;
     }
+
+    .dropdown-menu-second{
+        width: 74%;
+    }
 }
 
 @media screen and (min-width: 414px){
     
     .login_container{
         margin-top: 35px;
+    }
+
+    .dropdown-menu-second{
+        width: 85%;
+    }
+}
+
+@media screen and (min-width: 430px){
+
+    .dropdown-menu-second{
+        width: 91%;
     }
 }
 
